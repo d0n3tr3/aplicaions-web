@@ -1,9 +1,92 @@
-table,
+.flex-container{
+    padding: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.horari{
+    border: cyan;
+    background-color: cyan;
+}
+.NOM{
+    border: cyan;
+    background-color: cyan;
+}
+.s1{
+    border: rgb(82, 24, 82);
+    background-color: rgb(82, 24, 82);
+}
+.s2{
+    border: darkmagenta;
+    background-color: darkmagenta;
+}
+.s3{
+    border: darkorchid;
+    background-color: darkorchid;
+}
+.s4{
+    border: blueviolet;
+    background-color: blueviolet;
+}
+.s5{
+    border: cornflowerblue;
+    background-color: cornflowerblue;
+}
+.h{
+    border: blue;
+    background-color: blue;
+}
+.ªh{
+    border: cadetblue;
+    background-color: cadetblue;
+}
+.sis{
+    color: orange;
+    border: darkcyan;
+    background-color: darkcyan;
+
+}
+.se{
+    color: brown;
+    border: mediumseagreen;
+    background-color: mediumseagreen;
+
+}
+.ser{
+    color: chartreuse;
+    border: rgb(28, 156, 196);
+    background-color: rgb(28, 156, 196);
+}
+.apl{
+    color: crimson;
+    border: purple;
+    background-color: purple;
+}
+.eie{
+    color: black;
+    border: grey;
+    background-color: grey;
+}
+.web{
+    color: mediumvioletred;
+    border: darkslategrey;
+    background-color: darkslategrey;
+}
+table{
+    background-color: cyan;
+}
+
 th,
+
 td {
     border: 2px solid black;
 }
 
 .center {
     text-align: center;
+    border: cadetblue;
+    background-color: cadetblue;
 }
+
